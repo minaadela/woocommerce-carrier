@@ -1,0 +1,13 @@
+2020-07-05T23:07:17+00:00 CRITICAL Uncaught Error: Class 'wc_carrier_id' not found in /home/monty/Monty/SelfDev/wordpress/wp-content/plugins/woocommerce-carrier/woocommerce-carrier.php:23
+Stack trace:
+#0 /home/monty/Monty/SelfDev/wordpress/wp-includes/class-wp-hook.php(287): wc_carrier_id_init('')
+#1 /home/monty/Monty/SelfDev/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/monty/Monty/SelfDev/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/monty/Monty/SelfDev/wordpress/wp-settings.php(540): do_action('init')
+#4 /home/monty/Monty/SelfDev/wordpress/wp-config.php(90): require_once('/home/monty/Mon...')
+#5 /home/monty/Monty/SelfDev/wordpress/wp-load.php(37): require_once('/home/monty/Mon...')
+#6 /home/monty/Monty/SelfDev/wordpress/wp-admin/admin.php(34): require_once('/home/monty/Mon...')
+#7 /home/monty/Monty/SelfDev/wordpress/wp-admin/plugins.php(10): require_once('/home/monty/Mon...')
+#8 {main}
+  thrown in /home/monty/Monty/SelfDev/wordpress/wp-content/plugins/woocommerce-carrier/woocommerce-carrier.php on line 23
+
